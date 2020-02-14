@@ -9,7 +9,7 @@ The T620 is a nice little box e.g as a low power home server.
 ## Bios update
 
 ### Download Bios update to your win pc
-* [HP T620 Driver Downloads](https://support.hp.com/in-en/drivers/selfservice/hp-t620-flexible-thin-client/5404706
+* [HP T620 Driver Downloads](https://support.hp.com/in-en/drivers/selfservice/hp-t620-flexible-thin-client/5404706)
 
 ### extract and start the program 
 ### choose usb methode
