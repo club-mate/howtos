@@ -22,5 +22,5 @@ The T620 is a nice little box e.g as a low power home server.
 ### WARNING: Virtualization Option is not available in BIOS v.2.19
 ### before you install a system that needs AMD-V virtualisation e.g. proxmox, you have to check it with [HP BCU](https://ftp.hp.com/pub/caps-softpaq/cmit/HP_BCU.html) if its activitated and if not, activate it
 ### see also 
-* [HP Troubleshooting Guide about Changing BIOS Settings from the HP BIOS ConfigureUtility (HPBCU)](http://h10032.www1.hp.com/ctg/Manual/c04034585)
+* [HP Troubleshooting Guide - Changing BIOS Settings from the HP BIOS ConfigureUtility (HPBCU) on page 48](http://h10032.www1.hp.com/ctg/Manual/c04034585)
 * [HP Forum discussion about deploying BIOS settings on T620 remotely with HPDM](https://h30434.www3.hp.com/t5/Business-PCs-Workstations-and-Point-of-Sale-Systems/BIOS-settings-configuration-via-HPDM/m-p/6674713)
