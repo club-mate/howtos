@@ -1,3 +1,3 @@
 # Howtos
 
-* manjaro microcode fix [>>](./manjaro_microcode_fix.md)
+* manjaro microcode fix | [see howto >>](./manjaro_microcode_fix.md)
