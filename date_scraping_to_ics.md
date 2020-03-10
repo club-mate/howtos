@@ -22,22 +22,22 @@ cat example.html | sed -n -e 's/^.*Unterrichtsfreie Zeit - Zeitraum: //p'
 11.11.2020 - 12.11.2020
 03.12.2020 - 14.12.2020
 ```
-# change date format dd.mm.yyyy to yyyymmdd
+### change date format dd.mm.yyyy to yyyymmdd
 ```bash
 | sed -E 's,([0-9]{2}).([0-9]{2}).([0-9]{4}),\3\2\1,g'
 ```
-# echo in file dates.txt
+### echo in file dates.txt
 ```bash
 > dates.txt
 ```
-# all in one line
+### all in one line
 ```
 cat example.html | sed -n -e 's/^.*Unterrichtsfreie Zeit - Zeitraum: //p' | sed -E 's,([0-9]{2}).([0-9]{2}).([0-9]{4}),\3\2\1,g' > dates.txt
 ```
-# download, make my_ics.sh script from my [/scripts](https://github.com/club-mate/scripts) repository executable and execute it in the same folder where dates.txt was generated before
+### download, make my_ics.sh script from my [/scripts](https://github.com/club-mate/scripts) repository executable and execute it in the same folder where dates.txt was generated before
 ```bash
 wget https://raw.githubusercontent.com/club-mate/scripts/master/my_ics.sh
 chmod +x my_ics.sh
 ./my_ics.sh
 ```
-# know you should have your my.ics file for importing it in your calendar app
+### know you should have your my.ics file for importing it in your calendar app
