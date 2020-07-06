@@ -4,7 +4,7 @@
 ```bash
 sudo dmesg | grep microcode
 ```
-## install spectre-meldown-checker
+## install spectre-meltdown-checker
 ```bash
 sudo pacman -S spectre-meltdown-checker
 ```
