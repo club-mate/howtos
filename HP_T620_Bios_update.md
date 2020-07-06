@@ -1,6 +1,6 @@
 # HP T620 (not Plus) Bios update
 
-The T620 is a nice little box e.g as a low power home server.
+The T620 is a nice little box e.g using it as a low powered home server.
 
 * [Hardware Specs & Pictures](https://www.parkytowers.me.uk/thin/hp/t620/)
 * [HP QuickSpecs (pdf)](https://www.bluechipit.com.au/media/product_spec/t620_thin_client.pdf)
