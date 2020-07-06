@@ -7,7 +7,7 @@ it's a 17MB120 board from the turkish manufacturer Vestel, but it should work al
 got to menu and hit:
 * 4725 for hidden service menu (be careful, you can brick it there)
 * 1595 for starting FW update from USB Stick
-+ 7935
+* 7935 for Hotel Mode
 
 ## open ports
 beside the crappy smart-tv functions (i've bought a firestick to make it a smart-tv with less pain) u can do funny things with this cheap UHD LED TV
@@ -26,7 +26,7 @@ telnet 192.168.1.123 23
 ls -la
 # in /mnt/hd0a your usb stick is mounted
 # in /vendor/vk_keymapping_db.xml you can find the remote control codes
-
+```
 ## remote controll codes (not tested all)
 * BUTTON_HOME 1046
 * BUTTON_POWER    1012
