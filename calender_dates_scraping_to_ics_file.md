@@ -40,4 +40,4 @@ $ wget https://raw.githubusercontent.com/club-mate/scripts/master/my_ics.sh
 $ chmod +x my_ics.sh
 $ ./my_ics.sh > my.ics
 ```
-### know you should have your my.ics file for importing it in your calendar app
+### know you should have your my.ics file for importing into in your calendar app
