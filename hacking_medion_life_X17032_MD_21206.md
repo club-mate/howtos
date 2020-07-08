@@ -90,7 +90,7 @@ ls -la
 * BUTTON_QMENU    1043
 
 ## contributing
-if you like to share your expierience / thoughts, feel free to pull a request
+if you like to share your experience / thoughts, feel free to pull a request
 
 ## sauce
 * [https://community.medion.com/t5/Video/Probleme-nach-Firmware-Update-MEDION-LIFE-MB-120-LED-Backlight/td-p/62850/page/3](https://community.medion.com/t5/Video/Probleme-nach-Firmware-Update-MEDION-LIFE-MB-120-LED-Backlight/td-p/62850/page/3)
