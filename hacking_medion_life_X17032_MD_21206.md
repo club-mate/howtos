@@ -3,6 +3,14 @@
 ## Board
 it's a 17MB120 board from the turkish manufacturer Vestel, but it should work also with other vestel boards
 
+## privace issues & preventing TV from calling home
+| domain | Called up during activity | Presumed role
+|---|---|---|
+|www.portaltv.tv | turning on the TV | Based on the accessibility of this domain, the Smart TV concludes that it is online or not. So if it is blocked, no online feature can be called up, even if other domains would be available, because you cannot even get to the respective menu item. The request requests a text file containing 2048 times the character "x", namely www.portaltv.tv/assets/2kb.txt. |
+|mb100.portaltv.tv | Initial approval of the privacy policy, menu item "Menu -> Internet -> Smart TV | When consenting to the privacy policy, encrypted requests are made to this domain, presumably entering credentials to deposit the consent in one place. The addressed menu item is a location from which apps available on the device as well as the App Store itself can be started. |
+|vstlsrv.com | Search for and download firmware update, switch on TV | When switching on, a request is sent to http://vstlsrv.com/swtest/dial_appname_to_prefixurl_list.xml, which is different from the firmware update. This is different from the firmware update, which is done unencrypted via FTP, so that the login data is also visible in plain text. The Smart-TV browsed successively through files named "ping.me" as well as information files about the firmware available in different directories, e.g. ftp://vstlsrv.com/6841_001/ping.me and ftp://vstlsrv.com/6841_001/0009df/6841.dcf, changing the directory 6841_001 to 6841_002, which then changes to 6841_003 etc. until the newly targeted directory does not exist.|
+|europe.pool.ntp.org, go.microsoft.com, secureclock.playready.microsoft.com | Fernseher anschalten | When the device is started, these domains are called up for time synchronization. In the former, NTP is used for this, the second domain belongs to http://go.microsoft.com/fwlink/?LinkId=149408, which forwards to the third domain (because of 302 Moved Temporarily), where an HTTP POST request for Query of the time is used. |
+
 ## service codes
 got to menu and hit:
 * 4725 for hidden service menu (be careful, you can brick it there)
@@ -95,5 +103,4 @@ if you like to share your expierience / thoughts, feel free to pull a request
 ## sauce
 * [https://community.medion.com/t5/Video/Probleme-nach-Firmware-Update-MEDION-LIFE-MB-120-LED-Backlight/td-p/62850/page/3](https://community.medion.com/t5/Video/Probleme-nach-Firmware-Update-MEDION-LIFE-MB-120-LED-Backlight/td-p/62850/page/3)
 * [https://shkspr.mobi/blog/2018/11/telnet-control-of-toshiba-smart-tvs/](https://shkspr.mobi/blog/2018/11/telnet-control-of-toshiba-smart-tvs/)
-
-## more coming soon ...
+* [https://sarwiki.informatik.hu-berlin.de/Privacy@Home](https://sarwiki.informatik.hu-berlin.de/Privacy@Home)
