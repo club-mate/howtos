@@ -21,7 +21,7 @@ The T620 is a nice little box e.g using it as a low powered home server.
 ### choose FLASH ROM Option in the first dropdown menu
 ### follow the instructions
 
-### WARNING: Virtualization Option is not available in BIOS v.2.19
+### WARNING: Virtualization Option is hidden (not available anymore) in BIOS v.2.19
 ### before you install a system that needs AMD-V virtualisation e.g. proxmox, you have to check it with [HP BCU](https://ftp.hp.com/pub/caps-softpaq/cmit/HP_BCU.html) if its activitated and if not, activate it
 ### see also 
 * [HP Troubleshooting Guide - Changing BIOS Settings from the HP BIOS ConfigureUtility (HPBCU) on page 48(40)](http://h10032.www1.hp.com/ctg/Manual/c04034585)
