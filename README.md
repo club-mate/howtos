@@ -10,7 +10,7 @@
 
 ## Manjaro / Arch
 * Manjaro microcode fix | [see howto >>](./manjaro_microcode_fix.md)
-* Install Brother HL-L2300D printer on Manjaro / Arch | [see howto >>](./install_brother-hll2300d_printer)
+* Install Brother HL-L2300D printer on Manjaro / Arch | [see howto >>](./install_brother-hl-l2300d_printer.md)
 
 ## Data
 * Calender dates scraping -> .ics calendar file | [see howto >>](./calender_dates_scraping_to_ics_file.md)
