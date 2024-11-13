@@ -31,6 +31,7 @@ my recommended peripheral parts list for one node:
 * 2 x enterprise SSD with power loss protection, e.g Samsung 160GB around **28€** each (eBay) = **56€** per node
 * 2 x USB 2 SATA Power Cable | around **4€** each (eBay) = **8€**
 * 2 x 1GBit USB3.0 LAN Adapter | around **7$** each (aliexpress) = **14$** per node
+* UPDATE: avoid USB Adapters with proxmox, especially Realtek chipset, replace it with a mini pci-express gigabit network adapter where the 2-port Sata Adapter card was suppose to be plugged into
 
 ## cluster
 * for learning and testing purposes, just install 2 virtual nodes on one physical node
